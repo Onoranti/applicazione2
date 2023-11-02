@@ -70,10 +70,11 @@
     <EditText
         android:id="@+id/numero2"
         android:layout_width="187dp"
-        android:layout_height="37dp"
+        android:layout_height="50dp"
         android:layout_marginStart="116dp"
         android:layout_marginTop="160dp"
         android:ems="10"
+        android:text="inserisci qui"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -81,20 +82,23 @@
     <EditText
         android:id="@+id/numero1"
         android:layout_width="183dp"
-        android:layout_height="35dp"
+        android:layout_height="50dp"
         android:layout_marginStart="116dp"
         android:layout_marginTop="256dp"
+        android:text="inserisci qui"
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="425dp" />
+        android:layout_marginTop="36dp"
+        android:text="Risultato"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/differenza" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

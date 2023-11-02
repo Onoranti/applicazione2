@@ -27,24 +27,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button risultato = (Button) findViewById(R.id.risultato); //questa riga da dei problemi bisogna vedere cosa fare
-        final TextView txtViewSaluta= (TextView)findViewById(R.id.risultato);
+        Button risultato = findViewById(R.id.button1); //questa riga da dei problemi bisogna vedere cosa fare
+        final TextView txtViewSaluta= (TextView)findViewById(R.id.button1);
+        Button btnSaluta = (Button) findViewById(R.id.button1);
         btnSaluta.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
                 String strNum1 = numero1.getText().toString();
                 String strNum2 = numero2.getText().toString();
                 int n1 = Integer.parseInt(strNum1);
                 int n2 = Integer.parseInt(strNum2);
-                int res = n1 + n2;
+                int res = n1 - n2;
                 String strStr = String.valueOf(res);
-                risultato.setText(strStr);
+                //risultato.setText(strStr);
+                //cavallo
+                //cavallone
+
             }
         });
 
 
         somma = (Button) findViewById(R.id.somma);
         differenza = (Button) findViewById(R.id.differenza);
-        risultato = (TextView)findViewById(R.id.risultato);
+        risultato = (Button)findViewById(R.id.button1);
         numero1 = (EditText)findViewById(R.id.numero1);
         numero2 = (EditText)findViewById(R.id.numero2);
 
