@@ -12,14 +12,12 @@ import android.widget.TextView;
 import java.text.BreakIterator;
 
 public class MainActivity extends AppCompatActivity {
-
     private Button somma;
     private Button differenza;
-    private EditText numero1;   //serve per ricevere il risultato
+    private EditText numero1;
     private EditText numero2;
+
     private TextView risultato; //serve per stampare il risultato a video
-
-
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -52,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         numero1 = (EditText)findViewById(R.id.numero1);
         numero2 = (EditText)findViewById(R.id.numero2);
 
-        //capire come agganciare un ascoltatore ad un bottone.
-        //bisogna usare dei "puntatori" per capire cosa fare una volta che un evento avviene (devo capire cosa fare quando vengo cliccato).
+        //bisogna usare dei "puntatori" per capire cosa fare una volta che un evento
+        // avviene (devo capire cosa fare quando vengo cliccato).
     }
 }

@@ -71,11 +71,11 @@
         android:id="@+id/numero2"
         android:layout_width="187dp"
         android:layout_height="50dp"
-        android:layout_marginStart="116dp"
+        android:layout_marginStart="112dp"
         android:layout_marginTop="160dp"
         android:ems="10"
-        android:text="inserisci qui"
         android:inputType="numberDecimal"
+        android:text="inserisci qui"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
